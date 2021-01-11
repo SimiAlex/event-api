@@ -3,6 +3,9 @@ package SimiAlex.com.github.eventapi.entities;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.time.Instant;
 
 @MappedSuperclass
@@ -13,6 +16,7 @@ public class AbstractEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	protected Long id;
 
+	@JsonIgnore
 	@CreationTimestamp
 	@Column(updatable = false)
 	protected Instant created;

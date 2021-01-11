@@ -1,6 +1,8 @@
 package SimiAlex.com.github.eventapi.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.*;
@@ -9,7 +11,7 @@ import java.time.ZonedDateTime;
 import java.util.Objects;
 import java.util.Set;
 
-
+@JsonPropertyOrder({"resourceId"})
 @Entity
 @Table
 public class Event extends SimiAlex.com.github.eventapi.entities.AbstractEntity {
