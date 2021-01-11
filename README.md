@@ -1,4 +1,7 @@
-# event-api
+# event-api RESTfull webservice
+
+### Description
+Simple RESTfull webapp creted using Spring Boot
 Spring Data REST builds on top of Spring Data repositories and automatically exports those as REST resources. It leverages hypermedia to allow clients to find functionality exposed by the repositories and integrates these resources into related hypermedia based functionality automatically.
 
 ## event-api contains
