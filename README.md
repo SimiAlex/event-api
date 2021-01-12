@@ -18,5 +18,5 @@ Others:
  
 ### Images
 
-![App](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/ER.png)
-![App](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/screenshotStarted.png)
+![ER Diagram](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/ER.png)
+![Postman Post Sample](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/screenshotStarted.PNG)
