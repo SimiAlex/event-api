@@ -7,9 +7,10 @@ import org.springframework.data.convert.Jsr310Converters;
 
 @SpringBootApplication
 @EntityScan(basePackageClasses = {EventApiApplication.class, Jsr310Converters.class})
-public class EventApiApplication {
-
-	public static void main(String[] args) {
+public class EventApiApplication 
+{
+	public static void main(String[] args) 
+	{
 		SpringApplication.run(EventApiApplication.class, args);
 	}
 

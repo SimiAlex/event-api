@@ -15,8 +15,8 @@ import SimiAlex.com.github.eventapi.repos.ParticipantRepository;
 
 @RepositoryRestController
 @RequestMapping("/events")
-public class CheckInController {
-
+public class CheckInController 
+{
     @Autowired
     private ParticipantRepository participantRepository;
     
@@ -37,5 +37,4 @@ public class CheckInController {
        
         return ResponseEntity.ok( assembler.toFullResource(participant));
     }
-    
 }

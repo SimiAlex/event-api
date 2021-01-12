@@ -13,9 +13,8 @@ import SimiAlex.com.github.eventapi.repos.EventRepository;
 
 @RepositoryRestController
 @RequestMapping("/events")
-public class EventKickOffController {
-    
-
+public class EventKickOffController 
+{
     @Autowired
     private EventRepository eventRepository;
 
