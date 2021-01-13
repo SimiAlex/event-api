@@ -61,6 +61,15 @@
 			<version>5.4.27.Final</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-rest-hal-explorer -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-rest-hal-explorer</artifactId>
+			<version>3.4.2</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

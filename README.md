@@ -19,4 +19,5 @@ Others:
 ### Images
 
 ![ER Diagram](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/ER.png)
+![HAL Browser](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/HAL.PNG)
 ![Postman Post Sample](https://github.com/SimiAlex/event-api/blob/master/src/main/resources/images/screenshotStarted.PNG)
